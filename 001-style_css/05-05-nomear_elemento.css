@@ -1,7 +1,15 @@
 #titulo{
-   color: red;
+   color:green;
 }
 
 .multe{
+   color:red;
+}
+
+#titulo, .multe{
    color: blue;
+}
+
+ul li{
+   color: sienna;
 }
