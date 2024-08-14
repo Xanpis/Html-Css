@@ -1,0 +1,43 @@
+*{
+/* Dizendo tamanho do conteúdo, vem por padra assim */
+   /* box-sizing: content-box */
+
+   /* Dizendo que o conteúdo vai ser do tamanho especificado, incluído ( padding e border ) */
+   box-sizing: border-box;
+
+}
+
+
+body{
+   margin: 0;
+   
+}
+
+.exemplo{
+   background-color: black;
+   width: 600px;
+   height: 500px;  
+   padding: 10px;
+   border: solid 5px green;
+}
+
+img{
+ /*Por cousa do box-sizing; eu não posso colocar o width: 600px; tenho que 
+ pegar 600px menos o ( border: e padding: ) */
+   width: inherit;
+   min-width: 50px;
+   max-width: 570px;
+}
+a{
+   font-size: 50px;
+}
+
+.link:hover{
+   font-size: 60px;
+   color: red;
+}
+
+/* Quando o link já foi visitado ele muda de cor */
+.link:visited{
+   color: green;
+}
