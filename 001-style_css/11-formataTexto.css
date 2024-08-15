@@ -8,5 +8,17 @@ body{
 
 p{
    color:blue;
-   font;
+   font-weight: bold;
+   font-family: serif,Arial, Helvetica, sans-serif;
+   text-align: center,justify,right,left;
+}
+
+a{
+   text-decoration: none;
+   color: black;
+}
+
+a:hover{
+   text-decoration:underline;
+   color: red;
 }
