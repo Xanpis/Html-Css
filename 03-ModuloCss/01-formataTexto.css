@@ -6,12 +6,15 @@ body{
    font-size: 17px;
 }
 
+
+
 p{
    color:blue;
    font-weight: bold;
    font-family: serif,Arial, Helvetica;
    text-align: center,justify,right,left;
 }
+
 
 a{
    text-decoration: none;
