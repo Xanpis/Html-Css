@@ -6,7 +6,7 @@ body{
 }
 
 table{
-   width: 600px;   
+   width: 600px;
 }
 
 table thead{
@@ -34,3 +34,4 @@ tbody td{
 tbody tr:nth-child(even){
    background-color: #ddd;
 }
+
