@@ -1,0 +1,21 @@
+*{
+   box-sizing: border-box;
+}
+body{
+   margin: 20px;
+}
+
+fieldset{
+   background-color: #eee;
+   margin-bottom: 20px;
+   border: 0px solid black;
+   border-radius: 8px;
+}
+
+legend{
+   background-color: black;
+   color: white;
+   padding: 5px;
+   border-radius: 3px;
+
+}
