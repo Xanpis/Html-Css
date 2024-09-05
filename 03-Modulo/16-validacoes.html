@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>formulario-2</title>
+
+    <style>
+        body{
+            margin: 100px;
+        }
+   
+        fieldset{
+            background-color: #eee;
+            margin-bottom: 20px;
+            border: 1px solid black;
+            border-radius: 8px;
+           
+        }
+        label{
+            display: block;
+            margin-bottom: 20px;
+        }
+
+    </style>
+
+</head>
+<body>
+  
+<form action="adsfad.php" method="get">
+    
+    <fieldset>
+        
+        <label>
+            Name:<br>
+            <input type="text"/>
+        </label>
+
+        <label>
+            Idade: <br>
+            <!-- Pulando o numero de 3 em 3 e colocando maximo e minimo -->
+            <input type="number" name="ege" step="3" min="2024" max="2033"/>
+        </label>
+
+        <label>
+            data: <br>
+            <!--  Minimo de data -->
+            <input type="date" name="birthday"  min="2024-12-08"/>
+        </label>
+
+        <input type="submit" name="Enviar">
+    </fieldset>
+   
+</form>    
+</body>
+</html>
