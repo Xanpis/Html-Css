@@ -8,7 +8,7 @@ font-size: 17px;
 }
 
 /* Por padrão ela vem inline com o block eu estou dizendo que vai
- virar um bloco um embaixo do outro */
+ virar um bloco um em baixo do outro */
 label{
    display: block;
    margin-bottom: 20px;
@@ -20,14 +20,14 @@ input[type="text"],textarea,select{
    width: 500px;
    font-size: 15;
    border: 2px solid #ccc;
-   /* removendo borda azul que aparece quado clica para preacher o formulário */
+   /* removendo borda azul que aparece quando clica para preacher o formulário */
    outline: 0;
    margin-top: 5px;
 }
 
 textarea{
    height: 200px;
-   /* Tirando o box-sizing ficar se mechando; */
+   /* Tirando o box-sizing de ficar se mexendo; */
    resize: none;
 }
 

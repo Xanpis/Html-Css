@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>formulario</title>
+    <style>
+        body{
+            margin: 100px;
+        }
+   
+        fieldset{
+            background-color: #eee;
+            margin-bottom: 20px;
+            border: 1px solid black;
+            border-radius: 8px;
+           
+        }
+        label{
+            display: block;
+            margin-bottom: 20px;
+        }
+
+    </style>
+</head>
+<body>
+  
+<form action="adsfad.php" method="post">
+    
+    <fieldset>
+        <label>Name: <br>
+            <!-- Campo obrigatorio  -->   <!-- Definido tamanhos-->
+            <input type="text" required minlength="3" maxlength="5"/>
+        </label>
+
+        <label>Idade:  <br>
+            <!-- minimo e maximo -->
+            <input type="number" required min="2"/>
+        </label>
+                
+        <button type="submit">Enviar</button>
+    </fieldset>
+
+</form>
+
+    
+</body>
+</html>
