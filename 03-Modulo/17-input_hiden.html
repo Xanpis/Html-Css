@@ -24,23 +24,20 @@
 </head>
 <body>
   
-<form action="adsfad.php" method="post">
+<form action="adsfad.php" method="get">
     
     <fieldset>
-        
+         <!-- input escondido do usuario -->
+        <input type="hidden" name="country"  value="pt-BR"/>
+      
         <label>Name: 
-            <!-- Campo obrigatorio  -->   <!-- Definido tamanhos-->
-            <input type="text" required minlength="3" maxlength="5"/>
+            <input type="text" name="nome"/>
         </label>
-
-        <label>Idade: 
-            <!-- minimo e maximo -->
-            <input type="number" min="18"/>
-        </label>
-                
-        <button type="submit">Enviar</button>
+        
+        <input type="submit" value="Enviar"/>
     </fieldset>
 
+    
 </form>
 
     

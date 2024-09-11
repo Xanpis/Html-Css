@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>formulario-1</title>
+    <style>
+        body{
+            margin: 100px;
+        }
+   
+        fieldset{
+            background-color: #eee;
+            margin-bottom: 20px;
+            border: 1px solid black;
+            border-radius: 8px;
+           
+        }
+        label{
+            display: block;
+            margin-bottom: 20px;
+        }
+
+    </style>
+</head>
+<body>
+  
+    <!-- Arquivos devem ser sempre enviados via post 
+     Quando eu tiver o input file eu tenho que colocar o 
+     atributo "multipart/form-data" para converter para bits
+     e ficar organizado no servidor -->
+<form action="pagina.php" method="post" enctype="multipart/form-data">
+    <fieldset>
+        <label>Name: 
+            <input type="text" name="nome"/>
+        </label>
+
+        <label> 
+            <!-- input para enviar arquivo, e dizendo que o tipo dele vai ser apenas imagem-->
+            <input type="file" name="foto" accept="image/webp, image/png">
+
+            <!-- todos os tipos de imagem -->
+            <input type="file" name="foto" accept="image/*"">
+
+            <!-- Dizendo que o mimitype do arquivo vai ser pdf -->
+            <input type="file" name="foto" accept="application/pdf">
+        </label>
+        
+        <input type="submit" value="Enviar"/>
+    </fieldset>  
+</form>
+
+    
+</body>
+</html>
